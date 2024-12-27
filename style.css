@@ -137,25 +137,25 @@ border-bottom: 0.1rem solid transparent;
 /*! home end */
 /*! home start */
 .card-container {
-    display: flex; /* Kartları yan yana hizalamak için */
-    gap: 20px; /* Kartlar arası boşluk */
-    justify-content: center; /* Ortalamak için */
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
 }
 .card {
-    width: 250px; /* Tüm kutular aynı genişlikte */
-    height: 350px; /* Tüm kutular aynı yükseklikte */
-    background-color: #fff; /* Beyaz arka plan */
-    border: 1px solid #ccc; /* Kenar çizgisi */
-    border-radius: 10px; /* Kenar yuvarlaklığı */
-    overflow: hidden; /* İçerik taşmasını engellemek için */
-    text-align: center; /* İçeriği ortalamak için */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    width: 250px; 
+    height: 350px; 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    text-align: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .card img {
-    width: 100%; /* Resmin kutunun genişliğine uyum sağlaması için */
-    height: 50%; /* Yükseklik oranı */
-    object-fit: cover; /* Resmin düzgün ölçeklendirilmesi */
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
 }
 
 .card-title {
@@ -168,7 +168,7 @@ border-bottom: 0.1rem solid transparent;
     display: inline-block;
     margin: 5px 0;
     padding: 5px 10px;
-    background-color: #007bff; /* Mavi buton rengi */
+    background-color: #007bff; 
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -246,50 +246,50 @@ column-gap: 2rem;
     background-color: #0a0a0a;
 }
 
-/* Ana container */
+
 .comment-card {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Yatay hizalama */
-    text-align: center; /* Metni ortala */
-    width: 300px; /* Kart genişliği */
-    margin: 20px auto; /* Ortala ve kenar boşlukları */
+    align-items: center; 
+    text-align: center; 
+    width: 300px; /
+    margin: 20px auto; 
     padding: 20px;
-    background-color: #fff; /* Kart arkaplan rengi */
-    border-radius: 10px; /* Köşeleri yuvarla */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     font-family: Arial, sans-serif;
-    justify-content: center; /* Ortalamak için */
+    justify-content: center; 
 }
 
-/* Profil resmi */
+
 .comment-card img {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Yuvarlak resim */
-    object-fit: cover; /* Resmi boyutlandır */
+    border-radius: 50%; 
+    object-fit: cover; 
     margin-bottom: 10px;
 }
 
-/* Yorum metni */
+
 .comment-card .comment-text {
     font-size: 14px;
     line-height: 1.5;
-    color: #333; /* Metin rengi */
+    color: #333; 
     margin-bottom: 10px;
 }
 
-/* Kullanıcı adı */
+
 .comment-card .comment-author {
     font-weight: bold;
-    color: #555; /* Kullanıcı adı rengi */
+    color: #555; 
     margin-bottom: 5px;
 }
 
-/* Yıldızlar */
+
 .comment-card .stars {
     font-size: 20px;
-    color: gold; /* Yıldız rengi */
+    color: gold; 
 }
 
 .contact .row{
